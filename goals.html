@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Set and manage personal health and fitness goals.">
+    <title>Health & Fitness Tracker | Goals</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header>
+    <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html" class="logo">Health <span>&</span> Fitness</a>
+
+        <button class="nav-toggle" type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false">☰</button>
+
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="exercise.html">Exercise</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="sleep.html">Sleep</a></li>
+            <li><a href="progress.html">Progress</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main-content">
+
+    <section class="page-banner">
+        <div class="container">
+            <h1>Health Goals</h1>
+            <p>Create and monitor your personal wellness goals.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="form-container">
+                <h2>Create New Goal</h2>
+
+                <form id="goal-form">
+
+                    <div class="form-group">
+                        <label for="goal-title">Goal</label>
+                        <input type="text"
+                               id="goal-title"
+                               maxlength="100"
+                               placeholder="e.g. Exercise 5 days per week"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="goal-category">Category</label>
+                        <select id="goal-category" required>
+                            <option value="">Select category</option>
+                            <option value="Exercise">Exercise</option>
+                            <option value="Nutrition">Nutrition</option>
+                            <option value="Sleep">Sleep</option>
+                            <option value="Wellness">Wellness</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="goal-target">Target</label>
+                        <input type="number"
+                               id="goal-target"
+                               min="1"
+                               required>
+                    </div>
+
+                    <button type="submit" class="btn">Add Goal</button>
+
+                    <div id="goal-message"></div>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Current Goals</h2>
+            </div>
+
+            <div id="goal-container" class="card-grid"></div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p><strong>Health & Fitness Tracker</strong></p>
+        <p>&copy; <span id="current-year"></span> Health & Fitness Tracker</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/goals.js"></script>
+</body>
+</html>

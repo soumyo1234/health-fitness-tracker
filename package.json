@@ -1,0 +1,23 @@
+{
+  "name": "health-fitness-tracker",
+  "version": "1.0.0",
+  "description": "ICT807 Web Technologies Assessment 3 - Health and Fitness Tracker",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "javascript",
+    "express",
+    "fitness",
+    "web-technologies"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}

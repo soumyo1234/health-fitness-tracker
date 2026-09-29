@@ -1,0 +1,143 @@
+{
+  "user": {
+    "name": "Fitness User",
+    "weeklyGoal": 5
+  },
+  "exercise": [
+    {
+      "id": 1,
+      "date": "2026-09-18",
+      "activity": "Running",
+      "duration": 30,
+      "calories": 250
+    },
+    {
+      "id": 2,
+      "date": "2026-09-19",
+      "activity": "Cycling",
+      "duration": 45,
+      "calories": 380
+    },
+    {
+      "id": 3,
+      "date": "2026-09-21",
+      "activity": "Walking",
+      "duration": 40,
+      "calories": 180
+    },
+    {
+      "id": 4,
+      "date": "2026-09-23",
+      "activity": "Running",
+      "duration": 30,
+      "calories": 200
+    },
+    {
+      "id": 5,
+      "date": "2026-10-02",
+      "activity": "Running",
+      "duration": 20,
+      "calories": 150
+    }
+  ],
+  "nutrition": [
+    {
+      "id": 1,
+      "date": "2026-09-21",
+      "meal": "Breakfast",
+      "food": "Oats and Banana",
+      "calories": 420
+    },
+    {
+      "id": 2,
+      "date": "2026-09-21",
+      "meal": "Lunch",
+      "food": "Chicken Salad",
+      "calories": 550
+    },
+    {
+      "id": 3,
+      "date": "2026-09-21",
+      "meal": "Dinner",
+      "food": "Rice and Vegetables",
+      "calories": 620
+    },
+    {
+      "id": 4,
+      "date": "2026-09-25",
+      "meal": "Breakfast",
+      "food": "apple",
+      "calories": 150
+    },
+    {
+      "id": 5,
+      "date": "2026-09-25",
+      "meal": "Breakfast",
+      "food": "apple",
+      "calories": 200
+    }
+  ],
+  "sleep": [
+    {
+      "id": 1,
+      "date": "2026-09-19",
+      "hours": 7.5,
+      "quality": "Good"
+    },
+    {
+      "id": 2,
+      "date": "2026-09-20",
+      "hours": 8,
+      "quality": "Excellent"
+    },
+    {
+      "id": 3,
+      "date": "2026-09-21",
+      "hours": 6.5,
+      "quality": "Average"
+    },
+    {
+      "id": 4,
+      "date": "2026-09-26",
+      "hours": 2,
+      "quality": "Average"
+    }
+  ],
+  "goals": [
+    {
+      "id": 1,
+      "title": "Exercise 5 days per week",
+      "category": "Exercise",
+      "target": 5,
+      "current": 3
+    },
+    {
+      "id": 2,
+      "title": "Sleep at least 7 hours",
+      "category": "Sleep",
+      "target": 7,
+      "current": 6.5
+    },
+    {
+      "id": 3,
+      "title": "Drink enough water daily",
+      "category": "Wellness",
+      "target": 8,
+      "current": 5
+    },
+    {
+      "id": 4,
+      "title": "Exercise 5 days per week",
+      "category": "Exercise",
+      "target": 2,
+      "current": 0
+    },
+    {
+      "id": 5,
+      "title": "Weight Loss",
+      "category": "Nutrition",
+      "target": 5,
+      "current": 0
+    }
+  ]
+}
